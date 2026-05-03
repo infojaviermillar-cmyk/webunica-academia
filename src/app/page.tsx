@@ -38,37 +38,37 @@ export default function CoursesLandingPage() {
 
   const categories = [
     {
-      title: "Shopify Mastery",
-      tag: "Best Seller",
-      description: "Desde la configuración básica hasta la arquitectura avanzada con Liquid.",
-      features: ["Gestión Pro de Productos", "Personalización de Themes", "Shopify Markets", "Optimización de Checkout"],
+      title: "Shopify Básico",
+      tag: "Para Dueños",
+      description: "Operación y gestión diaria. Carga de productos, pedidos y cupones sin depender de técnicos.",
+      features: ["Gestión de Productos", "Colecciones Automatizadas", "Procesamiento de Pedidos", "Cupones y Descuentos"],
       icon: <Play className="w-6 h-6 text-emerald-500" />,
       color: "bg-emerald-50 text-emerald-700 border-emerald-100",
       btnColor: "bg-emerald-600 text-white hover:bg-emerald-700"
     },
     {
-      title: "IA para E-commerce",
-      tag: "Vanguardia",
-      description: "Automatiza tu catálogo y marketing usando Inteligencia Artificial generativa.",
-      features: ["ChatGPT para Copys", "Midjourney para Fotos", "Chatbots con IA", "Flujos con Shopify Flow"],
+      title: "Shopify Avanzado",
+      tag: "Personalización",
+      description: "Arquitectura de Themes, Liquid y Metafields para personalizar la experiencia total.",
+      features: ["Arquitectura Liquid", "Metafields & Metaobjects", "Shopify Markets", "Optimización de Carga"],
       icon: <Cpu className="w-6 h-6 text-violet-500" />,
       color: "bg-violet-50 text-violet-700 border-violet-100",
       btnColor: "bg-violet-600 text-white hover:bg-violet-700"
     },
     {
-      title: "Dropshipping 2.0",
-      tag: "ROI Directo",
-      description: "El modelo de vender sin stock en Chile usando Dropi y Shopify con éxito.",
-      features: ["Selección de Ganadores", "Configuración Dropi Local", "Pago Contra Entrega", "Escalado de Campañas"],
+      title: "Dropshipping + IA",
+      tag: "Vanguardia 2026",
+      description: "Vende sin stock en Chile usando Dropi y automatiza el marketing con Inteligencia Artificial.",
+      features: ["Integración Dropi Chile", "Selección de Ganadores", "Copys con ChatGPT", "Creativos con Midjourney"],
       icon: <Rocket className="w-6 h-6 text-blue-500" />,
       color: "bg-blue-50 text-blue-700 border-blue-100",
       btnColor: "bg-blue-600 text-white hover:bg-blue-700"
     },
     {
       title: "SEO para Tiendas",
-      tag: "Tráfico Gratis",
-      description: "Posiciona tu tienda en los primeros lugares de Google sin pagar anuncios.",
-      features: ["Keyword Research", "SEO On-Page Shopify", "Backlinks de Autoridad", "Technical SEO Audit"],
+      tag: "Tráfico Orgánico",
+      description: "Domina Google Chile. Estrategias de posicionamiento técnico para e-commerce.",
+      features: ["Keyword Research", "Silos Semánticos", "Indexación Técnica", "SEO On-Page Shopify"],
       icon: <Search className="w-6 h-6 text-amber-500" />,
       color: "bg-amber-50 text-amber-700 border-amber-100",
       btnColor: "bg-amber-600 text-white hover:bg-amber-700"
@@ -112,21 +112,24 @@ export default function CoursesLandingPage() {
               </div>
               
               <h1 className="text-5xl lg:text-[100px] font-black tracking-tighter leading-[0.85] mb-10 uppercase text-zinc-950">
-                DOMINA EL <br/>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-600 via-indigo-600 to-blue-600">E-COMMERCE</span> <br/>
-                REAL.
+                MASTER EN <br/>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-600 via-indigo-600 to-blue-600">SHOPIFY</span> <br/>
+                & IA.
               </h1>
               
               <p className="text-xl text-zinc-500 mb-12 max-w-xl mx-auto lg:mx-0 leading-relaxed font-light">
-                No enseñamos teoría obsoleta. Te entregamos las <strong className="text-zinc-950">estrategias técnicas y operativas</strong> que usamos para facturar millones en Chile. Shopify, IA y Crecimiento.
+                No enseñamos teoría genérica. Te entregamos la <strong className="text-zinc-950">ingeniería operativa</strong> que usamos en Webunica para escalar tiendas en Chile. Shopify Básico, Avanzado e IA.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <LeadButton className="px-12 py-5 bg-zinc-950 text-white font-black rounded-2xl hover:bg-zinc-800 transition-all shadow-2xl shadow-zinc-950/20 uppercase tracking-widest text-xs">
-                  Ver Programas
+                  Cotizar mi Taller
                 </LeadButton>
-                <button className="px-12 py-5 border border-zinc-200 text-zinc-950 font-black rounded-2xl hover:bg-zinc-50 transition-all uppercase tracking-widest text-xs">
-                  Charlas Corporativas
+                <button 
+                  onClick={() => window.open('https://wa.me/56984410379', '_blank')}
+                  className="px-12 py-5 border border-zinc-200 text-zinc-950 font-black rounded-2xl hover:bg-zinc-50 transition-all uppercase tracking-widest text-xs"
+                >
+                  Consultar por WhatsApp
                 </button>
               </div>
 
